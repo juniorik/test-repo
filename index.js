@@ -13,7 +13,6 @@ client.on('message', message => {
     }
 });
 
-
 client.login(config.TOKEN)
     .catch((e) => {
         console.log(e);
