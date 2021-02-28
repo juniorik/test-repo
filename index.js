@@ -5,6 +5,7 @@ const config = require('./config.json');
 
 client.once('ready', () => {
     console.log('Ping Pong Bot Loaded!');
+    client.user.setActivity(`Dame tu cosita!! 🐸`);
 });
 
 client.on('message', message => {
